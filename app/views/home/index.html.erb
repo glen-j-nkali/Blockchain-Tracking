@@ -1,0 +1,24 @@
+<% content_for :javascript do %>
+  <script type="text/javascript">
+    ShopifyApp.ready(function(){
+      ShopifyApp.Bar.initialize({ title: "Home" });
+    });
+  </script>
+<% end %>
+<!-- PUT HTML HERE -->
+<h2>Products</h2>
+<ul>
+  <% @products.each do |product| %>
+    <li><%= link_to product.title, "https://#{@shop_session.url}/admin/products/#{product.id}", target: "_top" %></li>
+  <% end %>
+</ul>
+
+<!-- PUT REACT  HERE -->
+<%= content_tag :div,
+  id: "hello-react",
+  data: {
+    name: 'Person',
+    products: @products,
+    shop_session: @shop_session
+}.to_json do %>
+<% end %>

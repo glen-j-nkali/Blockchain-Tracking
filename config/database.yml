@@ -1,0 +1,26 @@
+default: &default
+ adapter: mysql2
+ pool: 5
+ timeout: 5000
+ encoding: utf8
+
+development:
+ <<: *default
+ database: wishlist_development
+ host: wishlist.railgun
+ strict: false
+ port: 3306
+ username: root
+ password:
+
+test:
+ <<: *default
+ database: wishlist_test
+ host: wishlist.railgun
+ strict: false
+ port: 3306
+ username: root
+ password:
+
+production:
+ <<: *default
