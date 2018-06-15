@@ -1,0 +1,500 @@
+   65  git pull origin master
+   66  dev down
+   67  dev up
+   68  dev server
+   69  dev server
+   70  dev server
+   71  dev server
+   72  dev cd web
+   73  code .
+   74  dev -help
+   75  dev help
+   76  git status
+   77  git pull
+   78  git checkout yarn.lock
+   79  git pull
+   80  dev up
+   81  dev server
+   82  dev server
+   83  dev sv stop
+   84  dev server
+   85  dev down
+   86  dev up
+   87  dev server
+   88  dev server
+   89  dev cd onboarding-sandbox
+   90  git branch
+   91  code .
+   92  git status
+   93  git add app/views/welcome/index.html.erb
+   94  git commit -m "Add new section to the index.html.erb homepage"
+   95  git branch
+   96  git push origin  uchi_pr
+   97  git status
+   98  clear
+   99  dev open shop1
+  100  dev open shop1
+  101  dev open shop1
+  102  dev open shop
+  103  code .
+  104  code .
+  105  dev cd shopify
+  106  code .
+  107  dev cd web
+  108  git status
+  109  git diff app/sections/Products/ProductVariantShow/ProductVariantShow.tsx
+  110  git status
+  111  git status
+  112  git add -A
+  113  git commit -m "Make test generic"
+  114  git push origin wrap-productVariantShow-form-without-autocomplete
+  115  git status
+  116  git diff app/sections/Products/ProductShow/tests/ProductShow.test.tsx
+  117  git diff app/sections/Products/ProductVariantShow/tests/ProductVariantShow.test.tsx
+  118  git diff app/sections/Products/ProductVariantShow/tests/ProductVariantShow.test.tsx
+  119  git diff app/sections/Products/ProductVariantShow/tests/ProductVariantShow.test.tsx
+  120  git diff app/sections/Products/ProductShow/tests/ProductShow.test.tsx
+  121  git status
+  122  git add -A
+  123  git commit -m "Add tests for showing confirmation modal on edit cancel. Fixes #1885"
+  124  git branch
+  125  git push origin wrap-productVariantShow-form-without-autocomplete
+  126  history | grep HEAD
+  127  git reset HEAD^
+  128  history | grep push
+  129  it push -f origin wrap-productVariantShow-form-without-autocomplete
+  130  git push -f origin wrap-productVariantShow-form-without-autocomplete
+  131  git status
+  132  git diff app/sections/Products/ProductShow/tests/ProductShow.test.tsx
+  133  git checkout master
+  134  git status
+  135  git checkout app/sections/Products/ProductShow/tests/ProductShow.test.tsx
+  136  git checkout app/sections/Products/ProductVariantShow/tests/ProductVariantShow.test.tsx
+  137  git status
+  138  git checkout master
+  139  git status
+  140  git pill
+  141  git pull origin master
+  142  git checkout -b add-test-for-confirm-modal
+  143  git status
+  144  git add -A
+  145  history | grep commit
+  146  git status
+  147  git commit -m "Add tests for showing confirmation modal on edit cancel. Fixes #1885"
+  148  git branch
+  149  git push origin add-test-for-confirm-modal
+  150  git status
+  151  git add -A
+  152  git commit -m "Add tests for showing confirmation modal on edit cancel. Fixes #1885"
+  153  git push origin add-test-for-confirm-modal
+  154  dev down
+  155  dev cd web
+  156  yarn test
+  157  dev cd web
+  158  git status
+  159  git checkout -b index_filtering_support_location
+  160  git branch
+  161  dev cd web
+  162  yarn test
+  163  dev cd web
+  164  git pull origin master
+  165  git status
+  166  git branch
+  167  git checkout add-test-for-confirm-modal
+  168  git status
+  169  git checkout add-test-for-confirm-modal
+  170  git fetch origin
+  171  git status
+  172  git branch -a 
+  173  git branch -a
+  174  git branch -a | grep add-test-for-confirm-modal
+  175  git checkout remotes/origin/add-test-for-confirm-modal
+  176  git status
+  177  git branch
+  178  git checkout add-test-for-confirm-modal
+  179  git checkout master
+  180  git pull oorigin master
+  181  git pull origin master
+  182  dev server
+  183  dev down
+  184  dev up
+  185  dev server
+  186  dev down
+  187  dev cd web
+  188  git status
+  189  git branhc
+  190  git branch
+  191  git checkout wrap-productVariantShow-form-without-autocomplete
+  192  yarn test
+  193  yarn test
+  194  yarn test -help
+  195  dev down
+  196  dev up
+  197  yarn test
+  198  yarn test -h
+  199  yarn -h
+  200  vim package.json 
+  201  sewing-kit -h
+  202  sewing-kit -help
+  203  sewing-kit help
+  204  yarn test
+  205  yarn test
+  206  yarn test
+  207  yarn test
+  208  yarn test
+  209  yarn test
+  210  git status
+  211  history | grep git
+  212  yarn test
+  213  gigt i
+  214  git statusb            
+  215  git staus
+  216  git status
+  217  jfjfjls
+  218  echo "oh damn the console it shared too"
+  219  echo "hello Uchi!"
+  220  Hi
+  221  echo "Hi"
+  222  echo "bye!"
+  223  dev cd web
+  224  git status
+  225  git branch
+  226  git status
+  227  git status
+  228  git diff
+  229  git status
+  230  git diff app/sections/Products/ProductVariantShow/ProductVariantShow.tsx
+  231  git diff app/sections/Products/ProductVariantShow/tests/ProductVariantShow.test.tsx
+  232  git add -A
+  233  git commit -m "Add additional check before product variant save"
+  234  git push origin wrap-productVariantShow-form-without-autocomplete
+  235  git add -A
+  236  git commit -m "FIX: Add additional check before product variant save"
+  237  git push origin wrap-productVariantShow-form-without-autocomplete
+  238  git branch
+  239  git checkout index_filtering_support_location
+  240  git branch
+  241  git stattus
+  242  git status
+  243  pwd
+  244  open .
+  245  git status
+  246  git status
+  247  git status
+  248  git diff app/components/LocationFilter/
+  249  l app/components/LocationFilter/
+  250  ls 
+  251  ls app/components/LocationFilter/
+  252  git diff index.ts
+  253  git diff LocationFilter.tsx
+  254  git status
+  255  git diff app/components/index.ts
+  256  git diff app/sections/Products/ProductIndex/ProductIndex.tsx
+  257  git status
+  258  ls app/sections/Orders/
+  259  ls app/components/LocationFilter/
+  260  cat index.ts
+  261  git status
+  262  git add app/components/LocationFilter/
+  263  git commit -m "Add location picker component"
+  264  git branch
+  265  git push origin index_filtering_support_location
+  266  git status
+  267  git diff app/components/LocationFilter/LocationFilter.tsx
+  268  git status
+  269  git add app/components/LocationFilter/LocationFilter.tsx app/components/LocationFilter/tests/
+  270  git status
+  271  git commit -m "Add tests"
+  272  git push origin index_filtering_support_location
+  273  git status
+  274  git diff app/sections/Products/ProductIndex/ProductIndex.tsx
+  275  git status
+  276  git status
+  277  git diff app/components/LocationFilter/LocationFilter.tsx
+  278  git add app/components/LocationFilter/LocationFilter.tsx
+  279  git commit -m "Handle location submission"
+  280  git push origin index_filtering_support_location
+  281  dev run graphql
+  282  dev satrt graphql
+  283  dev start graphql
+  284  dev open graphql
+  285  dev start graphql
+  286  git status
+  287  git diff app/components/LocationFilter/LocationFilter.tsx
+  288  git status
+  289  git diff app/components/LocationFilter/tests/LocationFilter.test.tsx
+  290  git diff app/components/index.ts
+  291  git diff app/sections/Products/ProductIndex/ProductIndex.tsx
+  292  code app/sections/Products/ProductIndex/ProductIndex.tsx
+  293  git status
+  294  git diff app/components/LocationFilter/graphql/
+  295  git add app/components/LocationFilter/graphql/
+  296  git status
+  297  git add app/components/LocationFilter/LocationFilter.tsx
+  298  git add app/components/LocationFilter/tests/LocationFilter.test.tsx
+  299  git status
+  300  git diff app/components/index.ts
+  301  git status
+  302  git diff app/components/index.ts
+  303  git add app/components/index.ts
+  304  git status
+  305  git commit -m "First part of Location filter filter component
+  306  - Pulls stores locations
+  307  - Displays locations
+  308  Can pick a location
+  309  TODO:
+  310  - Tests
+  311  - Handle location change
+  312  - Start with a users predefined location on login (localstorage/db)"
+  313  git status
+  314  git push origin index_filtering_support_location
+  315  git status
+  316  git add app/components/LocationFilter/LocationFilter.tsx
+  317  git commit -m "First part of Location filter filter component
+  318  - Pulls stores locations
+  319  - Displays locations
+  320  Can pick a location
+  321  TODO:
+  322  - Tests
+  323  - Handle location change
+  324  - Start with a users predefined location on login (localstorage/db)"
+  325  git push origin index_filtering_support_location
+  326  git status
+  327  git add app/components/LocationFilter/LocationFilter.tsx
+  328  git commit -m "First part of Location filter filter component
+  329  - Pulls stores locations
+  330  - Displays locations
+  331  Can pick a location
+  332  TODO:
+  333  - Tests
+  334  - Handle location change
+  335  - Start with a users predefined location on login (localstorage/db)"
+  336  git push origin index_filtering_support_location
+  337  git staus
+  338  git status
+  339  git diff app/components/LocationFilter/LocationFilter.tsx
+  340  git add app/components/LocationFilter/LocationFilter.tsx
+  341  git status
+  342  git diff app/components/LocationFilter/tests/LocationFilter.test.tsx
+  343  git add app/components/LocationFilter/tests/LocationFilter.test.tsx
+  344  git commit -m "UPDATE: Push chnages for first review"
+  345  git push origin index_filtering_support_location
+  346  git status
+  347  git status
+  348  git add app/components/LocationFilter/LocationFilter.tsx app/components/LocationFilter/graphql/LocationQuery.graphql app/components/LocationFilter/tests/LocationFilter.test.tsx
+  349  git commit -m "Fix ci errors"
+  350  git push origin index_filtering_support_location
+  351  yarn lint
+  352  yarn type-check
+  353  git status
+  354  git add app/components/LocationFilter/LocationFilter.tsx
+  355  git cmmit -m "Fix type issues"
+  356  git commit -m "Fix type issues"
+  357  git push origin index_filtering_support_location
+  358  git status
+  359  git diff app/components/LocationFilter/LocationFilter.tsx
+  360  git diff app/components/LocationFilter/LocationFilter.tsx
+  361  git add app/components/LocationFilter/LocationFilter.tsx
+  362  git commit -m "Use callback for setstate and destructure state"
+  363  git push origin index_filtering_support_location
+  364  ls
+  365  yarn test -p LocationFilter
+  366  yarn test -p LocationFilter
+  367  yarn test -p LocationFilter
+  368  dev clone rnd-education-graphql-app
+  369  yarn install
+  370  yarn run sewing-kit dev
+  371  yarn run graphiql
+  372  yarn add react-apollo apollo-client-preset isomophic-fetch
+  373  yarn add react-apollo apollo-client-preset isomorphic-fetch
+  374  code  .
+  375  code  .
+  376  yarn run graphiql
+  377  dev cd web
+  378  dev cd web
+  379  git status
+  380  git diff app/components/LocationFilter/tests/LocationFilter.test.tsx
+  381  yarn test
+  382  yarn test
+  383  dev cd web
+  384  dev cd web
+  385  git branch
+  386  dev up
+  387  dev down
+  388  dev up
+  389  dev server
+  390  dev down
+  391  dev up
+  392  dev server
+  393  dev server
+  394  dev server
+  395  dev down
+  396  dev up
+  397  dev server
+  398  dev server
+  399  dev server
+  400  dev down
+  401  dev up
+  402  dev server
+  403  dev server
+  404  dev server
+  405  dev server
+  406  dev down
+  407  dev up
+  408  dev server
+  409  dev down
+  410  dev up
+  411  dev server
+  412  dev server
+  413  dev server
+  414  ev down
+  415  dev down
+  416  dev up
+  417  dev server
+  418  dev server
+  419  dev open graphql
+  420  dev open graphql
+  421  dev server
+  422  dev server
+  423  dev up
+  424  dev server
+  425  dev up
+  426  dev server
+  427  git branch
+  428  dev server
+  429  dev down
+  430  dev up
+  431  dev server
+  432  dev down
+  433  dev up
+  434  dev server
+  435  dev server
+  436  dev server
+  437  dev server
+  438  dev down
+  439  dev up
+  440  dev server
+  441  dev server
+  442  dev server
+  443  dev server
+  444  dev server
+  445  dev server
+  446  dev down
+  447  dev up
+  448  dev server
+  449  lsof -i:40020
+  450  kill -9 $(lsof -t -i:40020)
+  451  lsof -i:40020
+  452  dev server
+  453  dev server
+  454  kill -9 $(lsof -t -i:40020)
+  455  dev server
+  456  dev cd web
+  457  yarn test
+  458  git status
+  459  git diff app/sections/Products/ProductIndex/ProductIndex.tsx
+  460  yarn test
+  461  dev cd rnd-education-graphql-app
+  462  git status
+  463  dev start
+  464  ls
+  465  yarn run sewing-kit dev
+  466  yarn run sewing-kit dev
+  467  yarn run sewing-kit dev
+  468  yarn run sewing-kit dev
+  469  yarn run sewing-kit dev
+  470  yarn run sewing-kit dev
+  471  yarn run sewing-kit dev
+  472  yarn run sewing-kit dev
+  473  yarn run graphiql
+  474  dev cd web
+  475  yarn test
+  476  dev cd web
+  477  yarn test
+  478  yarn test
+  479  yarn test
+  480  yarn test
+  481  yarn test
+  482  yarn test
+  483  git pull
+  484  yarn test
+  485  dev cd web
+  486  yarn test
+  487  yarn test
+  488  yarn test
+  489  yarn test
+  490  git pull origin master
+  491  yarn test
+  492  dev down
+  493  dev up
+  494  yarn test
+  495  dev cd web
+  496  yarn test
+  497  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
+  498  cd ~/Desktop/veri/
+  499  ls
+  500  code .
+  501  docker ps
+  502  composer archive create -t dir -n .
+  503  npm install
+  504  docker ps
+  505  ls
+  506  npm install
+  507  ls
+  508  ls
+  509  npm install
+  510  npm install
+  511  npm install
+  512  composer-rest-server
+  513  composer-rest-server
+  514  npm install -g composer-rest-server
+  515  composer-rest-server
+  516  ls
+  517  composer-rest-server
+  518  composer network install --card PeerAdmin@hlfv1 --archiveFile dist/veri.bna 
+  519  npm install
+  520  composer network install --card PeerAdmin@hlfv1 --archiveFile dist/veri.bna 
+  521  npm install -g composer-cli
+  522  composer network install --card PeerAdmin@hlfv1 --archiveFile dist/veri.bna 
+  523  node -v
+  524  npm rebuild
+  525  node -v
+  526  composer network install --card PeerAdmin@hlfv1 --archiveFile dist/veri.bna 
+  527  which composer
+  528  rnpm uninstall -g composer
+  529  rnpm uninstall -g composer-cli
+  530  npm uninstall -g composer-cli
+  531  npm install -g composer-cli
+  532  which composer
+  533  composer network install --card PeerAdmin@hlfv1 --archiveFile dist/veri.bna 
+  534  rm -rf /usr/local/lib/node_modules/composer-cli/
+  535  composer network install --card PeerAdmin@hlfv1 --archiveFile dist/veri.bna 
+  536  npm install -g composer-cli
+  537  composer network install --card PeerAdmin@hlfv1 --archiveFile dist/veri.bna 
+  538  npm uninstall -g composer-cli
+  539  npm install -g composer-cli
+  540  composer network install --card PeerAdmin@hlfv1 --archiveFile dist/veri.bna 
+  541  which composer
+  542  composer network install --card PeerAdmin@hlfv1 --archiveFile dist/veri.bna 
+  543  ./Users/uchi/.nvm/versions/node/v8.9.4/bin/composer network install --card PeerAdmin@hlfv1 --archiveFile dist/veri.bna 
+  544  /Users/uchi/.nvm/versions/node/v8.9.4/bin/composer network install --card PeerAdmin@hlfv1 --archiveFile dist/veri.bna 
+  545  /Users/uchi/.nvm/versions/node/v8.9.4/bin/composer network install --card PeerAdmin@hlfv1 --archiveFile dist/veri.bna 
+  546  ls
+  547  composer network start --networkNam veri composer network start --networkNam adminpw --card PeerAdmin@hlfv1 --file networkadmin.card
+  548  /Users/uchi/.nvm/versions/node/v8.9.4/bin/composer network start --networkNam veri composer network start --networkNam adminpw --card PeerAdmin@hlfv1 --file networkadmin.card
+  549  /Users/uchi/.nvm/versions/node/v8.9.4/bin/composer network start --networkName veri adminpw --card PeerAdmin@hlfv1 --file networkadmin.card
+  550  /Users/uchi/.nvm/versions/node/v8.9.4/bin/composer network start --networkName veri --networkVersion 0.0.1 --networkAdmin admin --networkAdminEnrollSecret adminpw --card PeerAdmin@hlfv1 --file networkadmin.card
+  551  composer card import --file networkadmin.card
+  552  which composer
+  553  /Users/uchi/.nvm/versions/node/v8.9.4/bin/composer card import --file networkadmin.card
+  554  composer network ping --card admin@veri
+  555  /Users/uchi/.nvm/versions/node/v8.9.4/bin/composer network ping --card admin@veri
+  556  ls
+  557  composer-rest-server
+  558  cd ..
+  559  cd veri/
+  560  composer-rest-server
+  561  npm install
+  562  composer network upgrade -c peeradmin@hlfv1 -n NETWORK-NAME -V NETWORK-VERSION
+  563  history
+  564  history | cat >> composer.txt

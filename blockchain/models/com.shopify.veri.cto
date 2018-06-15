@@ -23,8 +23,6 @@ transaction ValidateProduct {
 
 event ValidateEvent {
   --> Product product
-  // o String oldValue
-  // o String newValue
 }
 
 
