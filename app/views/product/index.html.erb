@@ -1,0 +1,31 @@
+<% content_for :javascript do %>
+  <script type="text/javascript">
+    ShopifyApp.ready(function(){
+      ShopifyApp.Bar.initialize({ title: "Home" });
+    });
+  </script>
+<% end %>
+<!-- PUT HTML HERE -->
+
+<h1><%= @message %></h1>
+<table>
+  <thead>
+    <tr>
+      <th>Product ID</th>
+      <th>Shop ID</th>
+      <th>Product Name</th>
+      <th>Product MetaData</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% Product.find_each do |product| %>
+      <tr>
+        <td><%= product.id %></td>
+        <td><%= product.shop_id %></td>
+        <td><%= product.name %></td>
+        <td><%= product.metadata %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

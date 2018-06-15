@@ -3,12 +3,17 @@
   <head>
     <title>BlockchainTracking</title>
     <%= csrf_meta_tags %>
+    <link rel="stylesheet" href="https://sdks.shopifycdn.com/polaris/1.12.2/polaris.min.css" />
 
+<%
+=begin %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+<%
+=end %>
   </head>
 
-  <body>
+  <body class="fresh-ui">
     <%= yield %>
   </body>
 </html>

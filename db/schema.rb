@@ -13,10 +13,12 @@
 ActiveRecord::Schema.define(version: 20180615152409) do
 
   create_table "products", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
-    t.string "merchant", null: false
+    t.bigint "shop_id", null: false, unsigned: true
+    t.string "name", null: false
     t.string "metadata", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["shop_id"], name: "index_products_on_shop_id"
   end
 
   create_table "shops", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
