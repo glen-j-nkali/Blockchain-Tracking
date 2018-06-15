@@ -1,4 +1,4 @@
-name: wishlist
+name: blockchaintracking
 
 type: rails
 
@@ -18,10 +18,10 @@ up:
   - database:
       bootstrap: bin/rails db:create db:migrate db:schema:load
       migrate: bin/rails db:migrate db:test:prepare
-      host: wishlist.railgun
+      host: blockchaintracking.railgun
       user: root
       password: ''
-      database: wishlist_development
+      database: blockchaintracking_development
 
 server:
   port: 58761
@@ -36,4 +36,4 @@ commands:
 
 # These use fuzzy-matching, so you can (e.g.) `dev open app`
 open:
-  "My Application": https://wishlist.myshopify.io
+  "My Application": https://blockchaintracking.myshopify.io

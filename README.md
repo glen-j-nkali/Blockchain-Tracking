@@ -18,7 +18,7 @@ Create an app
 If you are reading this README.md, the good news is you already found the app repo. This is a Shopify Embedded App boilerplate to get up and running quickly.
 
 Installation
-dev clone wishlist
+dev clone blockchaintracking
 dev up
 What is dev? Learn more here
 
@@ -27,11 +27,11 @@ Create a public app
 
 Your app URL is
 
-https://wishlist.myshopify.io/
+https://blockchaintracking.myshopify.io/
 The redirect URLs are:
 
-https://wishlist.myshopify.io/
-https://wishlist.myshopify.io/auth/shopify/callback
+https://blockchaintracking.myshopify.io/
+https://blockchaintracking.myshopify.io/auth/shopify/callback
 Learn more about these URLs here 👉 https://help.shopify.com/api/getting-started/authentication/oauth#step-2-ask-for-permission
 
 Generate credentials](https://help.shopify.com/api/getting-started/authentication/oauth#step-1-get-the-clients-credentials).
@@ -40,9 +40,9 @@ Add your app's API key and secret to config/initializers/shopify_app.rb
 
 Running
 Start a local server dev server
-Visit your app at wishlist.myshopify.io
+Visit your app at blockchaintracking.myshopify.io
 Install your app
-Visit wishlist.myshopify.io and enter your Shopify store's domain.
+Visit blockchaintracking.myshopify.io and enter your Shopify store's domain.
 Click the Install button
 Add a wish list button to your shop's storefront
 You need a way to load an element (perhaps, a wish list button) to a shop's storefront. This can be done using Javascript and the Shopify's ScriptTag resource.
@@ -58,11 +58,11 @@ Your wish list button needs to call your app. You'll need to build some routes a
 
 The scrappy approach
 
-Create a link that will take the buyer directly to your app e.g. https://wishlist.myshopify.io/wanted_products/create?product_id=3
+Create a link that will take the buyer directly to your app e.g. https://blockchaintracking.myshopify.io/wanted_products/create?product_id=3
 
 A better approach
 
-Use an ajax request to call a wishlist url in your app - it can be the same url as above, but, without redirecting buyer.
+Use an ajax request to call a blockchaintracking url in your app - it can be the same url as above, but, without redirecting buyer.
 
 Saving the wish list
 Time to write some ruby code 😃
@@ -74,7 +74,7 @@ Now, when you hit the url above you can create or delete a wish list element for
 🏃🏃‍🏃 Stretch Goal: In the app's simplest form, it will support 1 buyer's wish list. What would your store and app need to support multiple buyers? 💡HINT Check out the checkout 😉 settings in your store's admin.
 
 Viewing the wish list
-Create a new page in your app for the buyer to view their wish list e.g. https://wishlist.myshopify.io/wanted_products
+Create a new page in your app for the buyer to view their wish list e.g. https://blockchaintracking.myshopify.io/wanted_products
 
 🏃🏃‍🏃 Stretch Goal: Buyer's can manually go to this link, however, it would be lovely if there was a link on every page directing them to their most wanted products.
 

@@ -1,5 +1,5 @@
 # https://engineering.shopify.io/dev/railgun/Railgun-Config
-name: wishlist
+name: blockchaintracking
 
 vm:
   image:      /opt/dev/misc/railgun-images/default
@@ -24,5 +24,5 @@ services:
   # - kafka
 
 hostnames:
-  - wishlist.myshopify.io: { proxy_to_host_port: 58761 }
+  - blockchaintracking.myshopify.io: { proxy_to_host_port: 58761 }
 

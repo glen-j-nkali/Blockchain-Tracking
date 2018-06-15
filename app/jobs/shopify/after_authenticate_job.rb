@@ -6,7 +6,7 @@ module Shopify
       shop.with_shopify_session do
         ShopifyAPI::ScriptTag.create(
           event: "onload",
-          src: "https://wishlist.myshopify.io/buyer.js"
+          src: "https://blockchaintracking.myshopify.io/buyer.js"
         )
       end
     end

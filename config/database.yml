@@ -6,8 +6,8 @@ default: &default
 
 development:
  <<: *default
- database: wishlist_development
- host: wishlist.railgun
+ database: blockchaintracking_development
+ host: blockchaintracking.railgun
  strict: false
  port: 3306
  username: root
@@ -15,8 +15,8 @@ development:
 
 test:
  <<: *default
- database: wishlist_test
- host: wishlist.railgun
+ database: blockchaintracking_test
+ host: blockchaintracking.railgun
  strict: false
  port: 3306
  username: root
