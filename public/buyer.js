@@ -8,7 +8,7 @@ if(window.location.href.includes("/products/")) {
     e.preventDefault();
     $.ajax({
         type: "POST",
-        url: "https://wishlist.myshopify.io/wish_lists", // change the url and the HTTP method to match our needs
+        url: "https://blockchaintracking.myshopify.io/wish_lists", // change the url and the HTTP method to match our needs
         data: {
             id: meta.product.id, //$(this).val(), // < note use of 'this' here
             authenticity_token: $("meta[name='csrf-token']").attr("content")
